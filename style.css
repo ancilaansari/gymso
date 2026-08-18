@@ -1,0 +1,580 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin:0;
+}
+section {
+   
+    width:100%;
+     max-width:100%;
+}
+nav{
+    display:flex;
+    justify-content:space-between;
+    gap:50px;
+    
+}
+
+.demo{
+    background-image: url('https://images.unsplash.com/photo-1517836357463-d25dfeac3438?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    height:100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.logo{
+    margin-left:30px;
+      font-family: "Archivo Black", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 30px;
+  margin-top:30px;
+  color:orangered;
+}
+
+.links{
+    margin-right:150px;
+    display:flex;
+    gap:30px;
+    margin-top:30px;
+}
+
+.links a{
+    color:white;
+    text-decoration: none;
+    
+
+}
+
+.links a:hover{
+    color: orangered;
+}
+
+.main{
+    text-align:center;
+    margin-top:100px
+}
+
+.main h1{
+    color:white;
+}
+
+.main p{
+    color:gray;
+
+}
+
+.main span{
+    color:white;
+}
+
+.main button{
+
+    background: transparent;
+    width:150px;
+    padding:8px;
+    margin-left:10px;
+    color:orangered;
+    border:none;
+    border:1px solid orangered
+
+}
+
+.main button:hover{
+    background-color: rgb(110, 36, 10);
+    color:black;
+    border:none;
+}
+
+.sub{
+    display:flex;
+    background-color: black;
+    padding:60px;
+    justify-content: center;
+}
+
+.col1 h1{
+    color:white;
+}
+
+.col1 p{
+
+    color:white
+
+}
+
+.col2 h1{
+    color:white
+}
+
+.col2 h5{
+    color:white;
+}
+
+.col1{
+    width:500px;
+    border-right:1px solid grey;
+    margin-right:80px;
+    padding:30px;
+    margin-top:-30px;
+}
+
+.col1 button{
+    width:100%;
+    padding:8px;
+    background-color: orangered;
+    border:none;
+   
+}
+
+.col1 button:hover{
+    background-color: rgb(101, 33, 8);
+}
+
+.container{
+    display: flex;
+    gap:50px;
+    justify-content:center;
+   padding:50px;
+     background-color: rgb(174, 172, 172);
+}
+
+.cont2 img{
+    width:200px;
+    height:200px;
+}
+
+.cont1{
+    width:400px;
+      margin-right:100px;
+}
+
+.cont2{
+    width:200px;
+  
+}
+
+.subs{
+    display:flex;
+    justify-content: space-between;
+    background-color: white;
+    padding:10px;
+    margin-top:-10px;
+
+}
+
+.subs a{
+    margin-top:20px;
+}
+
+.cont1 h1{
+    color:white;
+}
+
+.abc{
+        background-color: rgb(245, 245, 235);
+    padding:20px;
+}
+
+.demoo{
+    display:flex;
+    justify-content: center;
+
+    gap:40px;
+}
+
+.demo1{
+    width:300px;
+    background-color: white;
+  
+    
+}
+
+.demo1 img{
+
+    width:300px;
+    height:200px;
+  
+
+}
+
+.cde{
+    padding:15px;
+}
+
+.abc h4{
+    text-align: center;
+    color:grey;
+}
+
+.abc h2{
+    text-align: center;
+}
+
+.demos{
+    display: flex;
+    justify-content: space-between;
+}
+
+.demos div{
+    border-radius:50%;
+    background-color: red;
+    width:50px;
+    padding:10px;
+    margin-top:5px;
+
+}
+
+.demos{
+    margin-top:-20px;
+}
+
+.tables{
+    padding:100px;
+    background-color: black;
+}
+
+.tables p{
+    color:grey;
+    text-align: center;
+    margin-top:-10px;
+}
+
+.tables h2{
+    color:white;
+    text-align: center;
+}
+
+table{
+    margin:auto;
+    border-collapse: collapse;
+}
+
+
+td,th{
+    border:1px solid grey;
+    color:white;
+    padding:20px;
+    text-align: center;
+    width:200px;
+    height:50px;
+}
+
+th{
+    background-color: orangered;
+}
+
+td:hover{
+    background-color: rgb(179, 48, 0);
+    color:black;
+}
+
+.forms{
+    display:flex;
+    justify-content: center;
+    gap:70px;
+    padding:50px;
+}
+
+form{
+    width:400px;
+
+}
+
+.aa{
+    width:400px;
+}
+
+input,textarea{
+    width:100%;
+    padding:15px;
+    margin:12px;
+}
+
+form button{
+    width:100%;
+    padding:10px;
+    background-color: orangered;
+    border:none;
+    margin-left:15px;
+}
+
+form button:hover{
+    background-color: rgb(179, 48, 0);
+}
+form h1{
+    margin-left:18px;
+    margin-bottom:5px;
+}
+iframe{
+    width:400px;
+    height:200px;
+}
+
+/* =========================
+   TABLET VIEW
+   ========================= */
+
+@media (max-width: 992px) {
+
+    /* Navigation */
+    nav {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .logo {
+        margin: 20px 0 0;
+    }
+
+    .links {
+        margin: 0;
+        gap: 20px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    /* Hero Section */
+    .main {
+        margin-top: 100px;
+        padding: 20px;
+    }
+
+    .main h1 {
+        font-size: 35px;
+    }
+
+    /* About Section */
+    .sub {
+        padding: 40px 20px;
+    }
+
+    .col1 {
+        width: 45%;
+        margin-right: 30px;
+    }
+
+    .col2 {
+        width: 35%;
+    }
+
+    /* Hello Gymso Section */
+    .container {
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+
+    .cont1 {
+        width: 100%;
+        margin-right: 0;
+        text-align: center;
+    }
+
+    /* Training Classes */
+    .demoo {
+        flex-wrap: wrap;
+    }
+
+    /* Table */
+    .tables {
+        padding: 60px 20px;
+        overflow-x: auto;
+    }
+
+    table {
+        min-width: 1000px;
+    }
+
+    /* Contact */
+    .forms {
+        gap: 30px;
+    }
+
+    .aa {
+        width: 45%;
+    }
+
+    form {
+        width: 100%;
+    }
+
+    iframe {
+        width: 100%;
+    }
+}
+
+
+/* =========================
+   MOBILE VIEW
+   ========================= */
+
+@media (max-width: 600px) {
+
+    /* Navigation */
+    nav {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .logo {
+        font-size: 25px;
+        margin: 20px 0 0;
+    }
+
+    .links {
+        margin: 0;
+        gap: 15px;
+        flex-wrap: wrap;
+        padding: 0 10px;
+    }
+
+    .links a {
+        font-size: 14px;
+    }
+
+    /* Hero Section */
+    .demo {
+        height: auto;
+        min-height: 100vh;
+    }
+
+    .main {
+        margin-top: 100px;
+        padding: 20px;
+    }
+
+    .main h1 {
+        font-size: 28px;
+    }
+
+    .main p {
+        font-size: 14px;
+    }
+
+    .main span {
+        display: inline-block;
+        margin-bottom: 15px;
+    }
+
+    .main button {
+        display: block;
+        margin: 10px auto;
+    }
+
+
+    /* About Section */
+    .sub {
+        flex-direction: column;
+        padding: 30px 20px;
+    }
+
+    .col1 {
+        width: 100%;
+        border-right: none;
+        border-bottom: 1px solid grey;
+        margin: 0;
+        padding: 20px 0 30px;
+    }
+
+    .col2 {
+        width: 100%;
+        padding-top: 20px;
+    }
+
+
+    /* Hello Gymso Section */
+    .container {
+        flex-direction: column;
+        align-items: center;
+        padding: 40px 20px;
+    }
+
+    .cont1 {
+        width: 100%;
+        margin: 0;
+        text-align: center;
+    }
+
+    .cont2 {
+        width: 100%;
+        max-width: 300px;
+    }
+
+    .cont2 img {
+        width: 100%;
+        height: auto;
+    }
+
+
+    /* Training Classes */
+    .abc {
+        padding: 40px 20px;
+    }
+
+    .demoo {
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .demo1 {
+        width: 100%;
+        max-width: 350px;
+    }
+
+    .demo1 img {
+        width: 100%;
+        height: auto;
+    }
+
+
+    /* Working Classes Table */
+    .tables {
+        padding: 50px 10px;
+        overflow-x: auto;
+    }
+
+    table {
+        min-width: 5
+        00px;
+    }
+
+
+    /* Contact Section */
+    .forms {
+        flex-direction: column;
+        padding: 40px 20px;
+        gap: 40px;
+    }
+
+    .aa {
+        width: 100%;
+    }
+
+    form {
+        width: 100%;
+    }
+
+    input,
+    textarea {
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    form button {
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    form h1 {
+        margin-left: 0;
+        font-size: 25px;
+    }
+
+    iframe {
+        width: 100%;
+        height: 250px;
+    }
+}
